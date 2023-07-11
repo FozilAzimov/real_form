@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+    <input class="check1" type="checkbox"><span>harf lotin bo'lishi kerak</span>
+  </div>
+  <div class="wrapper">
+    <input class="check2" type="checkbox"><span>parol 8 ta yoki undan ko'p bo'lishi kerak</span>
+  </div>
+  <div class="wrapper">
+    <input class="check3" type="checkbox"><span>kamida bitta raqam bo'lishi kerak</span>
+  </div>
+  <div class="wrapper">
+    <input class="check4" type="checkbox"><span>kamida bitta harf bo'lishi kerak</span>
+  </div>
+
+
+  <div class="inputs" style="display: flex; flex-direction: column; width: 200px; gap: 20px; margin-top: 20px;">
+    <div>Yangi parol: <input class="inp1" type="text" oninput="func(event)"></div>
+    <div>Parolni takrorlang: <input class="inp2" type="text" oninput="func(event)"></div>
+    <button class="btn" style="padding: 10px;">Click me</button>
+  </div>
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
